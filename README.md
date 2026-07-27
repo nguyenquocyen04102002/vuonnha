@@ -496,17 +496,7 @@ NOTE CẦN LƯU Ý KHI LOAD HỆ THỐNG :
 3. THÊM LOGO CHO DỰ ÁN 
 - THÊM FOLDER TÊN LÀ assets có chưa file logovuonnha.png
 import logo from "../assets/logovuonnha.png";
-- <Link to="/" className="brand">
-            <img
-              src={logo}
-              alt="Vườn Nhà"
-              style={{
-                width: "200px",
-                height: "65px",
-                objectFit: "contain",
-              }}
-            />
-          </Link>
+
 
 ---
 
