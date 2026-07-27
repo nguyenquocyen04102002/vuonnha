@@ -1,4 +1,5 @@
-export default function Footer() {
+export default function Footer() 
+{
   return (
     <footer className="site-footer">
       <div className="container footer-grid">
@@ -11,7 +12,7 @@ export default function Footer() {
             Trái cây tươi hái từ vườn, tuyển chọn kỹ lưỡng và giao tận tay khách hàng trên toàn quốc.
           </p>
           <div className="footer-social">
-            <a href="#" aria-label="Facebook">f</a>
+            <a href="https://www.facebook.com/NguyenQuocYen0410" aria-label="Facebook">f</a>
             <a href="#" aria-label="Zalo">Z</a>
             <a href="#" aria-label="Youtube">▶</a>
           </div>

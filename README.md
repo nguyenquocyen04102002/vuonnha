@@ -468,6 +468,13 @@ Một số vấn đề thực tế đã được xử lý sẵn trong mã nguồ
 
 - ngày 21/07 quản lý tài khoản người dùng degins dự án theo trang web taynguyenfoodvn.com
 
+- Tại trang admin tạo các dashboard tương ứng để hiển thị cho data analys các biểu đồ báo cáo 
+
+
+
+
+
+
 - ngày 22/07 trang quản trị để quán lý thông tin dữ liệu dự án pgadmin kiểm tra kết nối database postgre dự án sửa cách nhập hình ảnh product từ URL chuyển sang choose hình ảnh trên máy để lưu vào folder uploads
 
 - Ngày 23/07 thay đổi password của pgadmin pass từ "vuonnha_password" chuyển thành "vuonnha123" phân trang sản phẩm để hiển thị tất cả sản phẩm
@@ -480,12 +487,26 @@ Một số vấn đề thực tế đã được xử lý sẵn trong mã nguồ
 
 -  Ngày 27/07 Chức năng xem thông tin khách hàng, sửa thông tin khách hàng Phân quyền từ siêu admin admin@vuonnha.com phân quyền cho các user khác
 hiển thị chi tiết đơn hàng cho các đơn hành đã được đặt
-
+Task in to to day : Sửa fontend đơn hàng và chi tiết đơn hàng để đẹp hơn và hiển thị hình ảnh trái cây trong đơn hàng 
 
 NOTE CẦN LƯU Ý KHI LOAD HỆ THỐNG :
 
 1. ADMIN : THÊM CỘT ĐỊA CHỈ VÀO DANH SÁCH NGƯỜI DÙNG
 2. HEADER VÀ FLOOTER : SỬA CÁC THÔNG TIN CÁ NHÂN CỦA DỰ ÁN
+3. THÊM LOGO CHO DỰ ÁN 
+- THÊM FOLDER TÊN LÀ assets có chưa file logovuonnha.png
+import logo from "../assets/logovuonnha.png";
+<!-- <Link to="/" className="brand">
+            <img
+              src={logo}
+              alt="Vườn Nhà"
+              style={{
+                width: "200px",
+                height: "65px",
+                objectFit: "contain",
+              }}
+            />
+          </Link> -->
 
 ---
 

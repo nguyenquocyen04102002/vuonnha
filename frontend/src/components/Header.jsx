@@ -2,6 +2,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { useCart } from "../context/CartContext";
 
+import logo from "../assets/logovuonnha.png"; // thêm import logo nếu bạn muốn sử dụng hình ảnh logo từ thư mục assets
+
 export default function Header() {
   const { user, logout, isAdmin } = useAuth();
   const { cart } = useCart();
@@ -30,8 +32,15 @@ export default function Header() {
       <header className="site-header">
         <div className="container site-header-inner">
           <Link to="/" className="brand">
-            <span className="brand-mark">VN</span>
-            Vườn Nhà
+            <img
+              src={logo}
+              alt="Vườn Nhà"
+              style={{
+                width: "200px",
+                height: "65px",
+                objectFit: "contain",
+              }}
+            />
           </Link>
 
           <nav className="nav-links">
