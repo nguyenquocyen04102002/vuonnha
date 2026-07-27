@@ -444,36 +444,39 @@ Một số vấn đề thực tế đã được xử lý sẵn trong mã nguồ
 
 - Thanh toán online thật (VNPay/Momo) thay vì chỉ COD/chuyển khoản thủ công
 
-- Upload ảnh sản phẩm thay vì nhập URL
+- ✓ Upload ảnh sản phẩm thay vì nhập URL
 
-- Đánh giá / bình luận sản phẩm
+- ✓ Đánh giá / bình luận sản phẩm
 
 - Email xác nhận đơn hàng
 
-- Phân trang cho danh sách sản phẩm / đơn hàng khi dữ liệu lớn
+- ✓ Phân trang cho danh sách sản phẩm / đơn hàng khi dữ liệu lớn
 
 - Refresh token cho JWT (hiện tại dùng access token sống 24h)
 
-- Cho phép khách hàng xem thông tin tài khoản của khách hàng
+- ✓ Cho phép khách hàng xem thông tin tài khoản của khách hàng
 
-- Cho phép khách hàng sửa thông tin tài khoảng khách hàng - sdt - địa chỉ
+- ✓ Cho phép khách hàng sửa thông tin tài khoảng khách hàng - sdt - địa chỉ
 
-- Phân quyền tài khoản trong dashboard của admin
+- ✓ Phân quyền tài khoản trong dashboard của admin
 
-- Quản trị viên có thể phân quyền cho tài khoản khách hàng -> quản trị viên
+- ✓ Quản trị viên có thể phân quyền cho tài khoản khách hàng -> quản trị viên
 
-- Khách hàng quên mật khẩu sẽ nhập sdt nếu đúng thì sẽ cho nhập lại mật khẩu mới
-
-- Ngày 20/7 khởi tạo dự án với trang home và hiển thị sản phẩm tại trang chủ
-
-- ngày 21/07 quản lý tài khoản người dùng degins dự án theo trang web taynguyenfoodvn.com
+-  Khách hàng quên mật khẩu sẽ nhập sdt nếu đúng thì sẽ cho nhập lại mật khẩu mới
 
 - Tại trang admin tạo các dashboard tương ứng để hiển thị cho data analys các biểu đồ báo cáo 
 
 
 
 
+- Tại trang admin tạo các dashboard tương ứng để hiển thị cho data analys các biểu đồ báo cáo 
 
+
+
+
+- Ngày 20/7 khởi tạo dự án với trang home và hiển thị sản phẩm tại trang chủ
+
+- ngày 21/07 quản lý tài khoản người dùng degins dự án theo trang web taynguyenfoodvn.com
 
 - ngày 22/07 trang quản trị để quán lý thông tin dữ liệu dự án pgadmin kiểm tra kết nối database postgre dự án sửa cách nhập hình ảnh product từ URL chuyển sang choose hình ảnh trên máy để lưu vào folder uploads
 
@@ -488,6 +491,11 @@ Một số vấn đề thực tế đã được xử lý sẵn trong mã nguồ
 -  Ngày 27/07 Chức năng xem thông tin khách hàng, sửa thông tin khách hàng Phân quyền từ siêu admin admin@vuonnha.com phân quyền cho các user khác
 hiển thị chi tiết đơn hàng cho các đơn hành đã được đặt
 Task in to to day : Sửa fontend đơn hàng và chi tiết đơn hàng để đẹp hơn và hiển thị hình ảnh trái cây trong đơn hàng 
+
+
+
+
+
 
 NOTE CẦN LƯU Ý KHI LOAD HỆ THỐNG :
 
