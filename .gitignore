@@ -1,0 +1,27 @@
+# Biến môi trường
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ảnh đã upload (giữ thư mục, bỏ qua nội dung)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Docker
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
